@@ -1,0 +1,80 @@
+*{
+color: aliceblue;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+background-image: linear-gradient(to left bottom, #000000, #330722, #550050, #610c93, #0039e5);
+}
+#outerdiv{
+    height: 270px;
+    width: 250px;
+    background: transparent;
+    box-shadow: 0px 6px 30px rgb(2, 25, 26);
+    padding: 20px;
+    border-radius: 30px;
+}
+#t{
+    background: #078bc0;
+    width: 190px;
+    height: 25px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 26px;
+    box-shadow: 0px 6px 30px rgb(2, 25, 26);
+    text-align: center;
+    color: #000000;
+}
+#s{
+    background: #078bc0;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 26px;
+    box-shadow: 0px 6px 30px rgb(2, 25, 26);
+    background-image: url("search-48.png");
+    background-size: contain;
+}
+input::placeholder{
+    color: black;
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+
+.logo{
+width: 100%;
+height: 100px;
+display: flex;
+    justify-content: center;
+align-items: center;
+}
+#logo{
+background-image: url("weather-app.png");
+background-size: cover;
+    height: 80px;
+    width: 90px;
+}
+.temp{
+    margin-top: px;
+    text-align: center;
+    font-size: 35px;
+}
+.city{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
