@@ -3,7 +3,6 @@
 This is just basic weather info like temperature, humidity, wind speed, etc.
 ***
 The app has been created using only 
-HTML, CSS, and JavaScript.
 | HTML      | CSS     | JAVASCRIPT              |
 | :-------- | :------- | :------------------------- |
 
